@@ -1,0 +1,1 @@
+import{r as t,g as o,j as a}from"./index-DNWIIfjW.js";function c({children:r}){const e=t.useRef();return t.useEffect(()=>{const s=e.current;o.fromTo(s,{opacity:0,scale:.98,filter:"blur(12px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:.3,ease:"power2.out"})},[]),a.jsx("div",{ref:e,className:"min-h-screen",style:{opacity:0},children:r})}export{c as T};
