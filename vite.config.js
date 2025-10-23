@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-import flowbiteReact from "flowbite-react/plugin/vite";
 
-// https://vite.dev/config/
+
+// https://vitejs.dev/config/
 export default defineConfig({
-  title: 'MoizDev',
-  plugins: [react(), tailwindcss(), flowbiteReact()],
+  plugins: [react()],
+  // IMPORTANT for GitHub Pages project site:
+  base: '/arweb/',
 })
